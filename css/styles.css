@@ -29,11 +29,13 @@
 
 /**/
 
-html, body {
-  margin:0;
-  padding:0;
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
-
 
 body {
   background-color: #FFF;
@@ -154,10 +156,13 @@ header nav ul li a:active {
 .aboutMe .col {margin-top: 20px;}
 
 .myPhoto {
-  border-radius: 50%;
-  border: 2px solid #FBBA42;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  margin-top: 25px;
+}
+
+
+.webDev {
+  height: 75px;
+  float:right;
 }
 
 
@@ -194,89 +199,3 @@ header nav ul li a:active {
   }
 
 .firstPointer:after {border-left: 0;}
-
-/*CSS angled line Symbol*/
-
-.angled {
-  height: 100px;
-  width: 0px;
-  border-bottom: 3px solid #FBBA42;
-  border-right: 3px solid #FBBA42;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
-
-.angledTopLeft {
-  float: right;
-  position: absolute;
-  -moz-transform: skew(45deg);
-  -webkit-transform: skew(45deg);
-  transform: skew(45deg);
-  margin-left: 95px;
-}
-
-.angledTopRight {
-  -moz-transform: skew(-45deg);
-  -webkit-transform: skew(-45deg);
-  transform: skew(-h3);
-  margin-left: 252px;
-}
-
-.angledBottomLeft {
-  float: right;
-  position: absolute;
-  -moz-transform: skew(-45deg);
-  -webkit-transform: skew(-45deg);
-  transform: skew(-45deg);
-  margin-left: 95px;
-  margin-top: 63px;
-}
-
-.angledBottomRight {
-  -moz-transform: skew(45deg);
-  -webkit-transform: skew(45deg);
-  transform: skew(45deg);
-  margin-left: 252px;
-  margin-top: 63px;
-}
-
-.angledBottomLeft2 {
-  width: 20px;
-  margin-left: 0;
-  width: 95px
-}
-
-.bar {background-color: #FBBA42}
-
-.topLeftBar{
-  width:95px;
-  height:2px;
-  margin-left:-48px;
-}
-
-.bototomLeftBar{
-  width:95px;
-  height:2px;
-  margin-left:-48px;
-  position: absolute;
-  top:161px;
-}
-
-.topRightBar {
-  width:95px;
-  height:2px;
-  left: 318px;
-  position: absolute;
-  top: 0px;
-}
-
-.bottomRightBar{
-  width:95px;
-  height:2px;
-  margin-left:48px;
-  position: absolute;
-  top:161px;
-}
-
-topRightBar {}
