@@ -1,16 +1,39 @@
 /*Utility Classes*/
 .cap {text-transform: uppercase;}
 
-.tcenter {text-align: center;}
+.tcenter {
+  text-align: center;
+  display: block;
+}
 
 .center {
   margin: 0 auto;
   position: relative;
+  display: block;
 }
 
 .specialColor {color: #F24C27}
 
+.noPadding {padding: 0 0 0 0}
+
+.invertColor {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.higherZindex {
+  position: relative;
+  z-index: 10;
+}
+
 /**/
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
 
 body {
   background-color: #FFF;
@@ -29,12 +52,13 @@ h1.section::after {
 }
 
 h1.section {
-  margin: 100px 0 100px 0;
+  margin: 90px 0 104px 0;
 }
 
 nav {
   border-bottom: 3px solid #56B9D0;
   font-weight: 100;
+  background-color: #333333;
 }
 
 header nav ul {
@@ -42,7 +66,6 @@ header nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
   padding-left: 50px;
 }
 
@@ -90,3 +113,76 @@ header nav ul li a:active {
 .midsection h1.section {
   margin: 0 0 0 0;
 }
+
+.aboutMe .row {margin-bottom: 20px;}
+
+.logos {
+  margin-top: 20px;
+  z-index: 10;
+  position: relative;
+}
+
+
+
+.pointer img {width: 50px;}
+
+.school {
+  margin-left: 10px;
+}
+
+.school2 {
+  margin-left:35px;
+}
+
+.lion {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.thedyrt {
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 60px !important;
+}
+
+.evanta {
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 60px !important;
+}
+
+.aboutMe .col {margin-top: 20px;}
+
+/*CSS Symbol*/
+
+.pointer {
+    width: 80px;
+    height: 90px;
+    position: relative;
+    background: #56B9D0;
+  }
+.pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid white;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+  }
+.pointer:before {
+    content: "";
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #56B9D0;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    z-index: 10;
+  }
+
+.firstPointer:after {border-left: 0;}
