@@ -194,6 +194,27 @@ header nav ul li a:active {
   width: 70px;
 }
 
+.below-icon3 {
+  position: absolute;
+  right:0px;
+  top:250px;
+  width: 100px;
+}
+
+.pingPong {
+  height: 75px;
+  position: absolute;
+  right: left;
+  top: 160px;
+}
+
+.below-icon4 {
+  position: absolute;
+  left:0px;
+  top:250px;
+  width: 100px;
+}
+
 
 /*CSS Pointer Symbol*/
 
