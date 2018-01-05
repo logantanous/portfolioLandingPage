@@ -27,6 +27,8 @@
   z-index: 10;
 }
 
+.spacer45 {height: 45px;}
+
 /**/
 
 html,body {
@@ -165,6 +167,33 @@ header nav ul li a:active {
   float:right;
 }
 
+.amzLogo {
+  height: 75px;
+  position: absolute;
+  right: 0;
+  top: 160px;
+}
+
+.emailMarketing {
+  height: 75px;
+  position: absolute;
+  left: 0;
+}
+
+.below-icon1 {
+  position: absolute;
+  right:0px;
+  top:80px;
+  width: 120px;
+}
+
+.below-icon2 {
+  position: absolute;
+  left:0px;
+  top:80px;
+  width: 70px;
+}
+
 
 /*CSS Pointer Symbol*/
 
@@ -199,3 +228,9 @@ header nav ul li a:active {
   }
 
 .firstPointer:after {border-left: 0;}
+
+@media screen and (max-width: 767px) {
+    .myPhoto {
+        display: none;
+    }
+}
