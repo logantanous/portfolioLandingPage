@@ -12,6 +12,8 @@
   display: block;
 }
 
+.white {background-color: white;}
+
 .specialColor {color: #F24C27}
 
 .noPadding {padding: 0 0 0 0}
@@ -218,17 +220,20 @@ header nav ul li a:active {
 }
 
 .proj {
-  height: 340px;
-  overflow-y: hidden;
   background: #FFF;
 }
 
 .proj img {
   width: 350px;
+  overflow-y: hidden;
 }
 
 .resort {
   object-fit: cover;
+}
+
+.valignBottom {
+  vertical-align: bottom;
 }
 
 /*CSS Pointer Symbol*/
