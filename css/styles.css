@@ -29,6 +29,8 @@
 
 .spacer45 {height: 45px;}
 
+.spacer100 {height: 100px;}
+
 /**/
 
 html,body {
@@ -215,6 +217,19 @@ header nav ul li a:active {
   width: 100px;
 }
 
+.proj {
+  height: 340px;
+  overflow-y: hidden;
+  background: #FFF;
+}
+
+.proj img {
+  width: 350px;
+}
+
+.resort {
+  object-fit: cover;
+}
 
 /*CSS Pointer Symbol*/
 
